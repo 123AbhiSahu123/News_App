@@ -1,0 +1,102 @@
+.background
+{
+    background-color: blueviolet;
+}
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursively;
+    line-height: 1.4;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f1eeee;
+}
+footer
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: auto;
+ background-color: blueviolet;
+ padding: 60px 10%;
+ column-gap: 200px;
+}
+ul
+{
+    list-style: none;
+}
+footer-col
+{
+    width: 25%;
+}
+.footer-col h4
+{
+    position: relative;
+    margin-bottom:10px;
+    font-weight: 800;
+    font-size: 26px;
+    color: red;
+    text-transform: capitalize;
+}
+ul li a
+{
+    display: block;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: blue;
+    transition: 0.4s;
+    text-decoration: dashed;
+}
+ul li a:hover
+{
+    color: white;
+    padding: size 2px;
+}
+.links a{
+    display:inline-block;
+    height: 44px;
+    color: white;
+    background-color: rgb(68, 0, 255);
+    margin: 0 8px 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    transition: 1s;
+}
+.links a:hover
+{
+    color:#2d2e33;
+    background-color: white;
+}
+@media  screen and(max-width:576px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+@media  screen and(max-width:776px) {
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+.card-title {
+    height: 100px;
+}
+.card-text {
+    height: 170px;
+}
+.card-source {
+    padding: 5px;
+    background-color: bisque;
+    font-size: 12px;
+}
